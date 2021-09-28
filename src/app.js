@@ -2,7 +2,7 @@ require('dotenv').config();
 const express = require('express');
 require('express-async-errors');
 const errorHandler = require('./middleware/errorHandler');
-const validationErrorHandler = require('./middleware/validationErrorHandler');
+const validationErrorHandler = require('./middleware/vaildationErrorHandler');
 const routes = require('./routes');
 
 const app = express();
